@@ -2,9 +2,9 @@ from utils.fungsi import f
 
 def secant(x0, x1, galat, maxIter):
   iterasi = 0
-  print("="*120)
+  print("="*80)
   print("Hasil Iterasi Metode Secant")
-  print("="*120)
+  print("="*80)
   print("")
   print(f" {"iterasi":>8} {"x0":>8} {"x1":>8} {"f(x0)":>8} {"f(x1)":>8} {"xnew":>8} {"error":>8} {"keterangan":>8}")
   while iterasi <= maxIter:
